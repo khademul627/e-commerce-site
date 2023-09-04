@@ -1,0 +1,100 @@
+.header-nav{
+    background-color: #323232;  
+    top: 0px;
+}
+.hearder-link{
+    font-size: 17px;
+}
+.hearder-link:hover{
+    text-decoration: overline;
+    transition: 6ms; 
+}
+.slider{
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+}
+.carosul-btn{
+    background-color: black;
+}
+
+.card1:hover{
+    box-shadow:13px 13px 19px black;
+    transform: translate3d(4px, -6px, 29px);
+    transition:0.4s;
+} 
+.section4{
+    display: flex;
+    margin-top: 10px;
+    background-color: #838383e3;
+    color: black;
+}
+.carddiv{
+    background-color: #f1f1f1;
+}
+.section4 .contact{
+    padding: 88px;
+    padding-top: 48px;
+   
+    font-family: initial;
+}
+.pagdiv .nava:hover{
+    background-color: black;
+    color: aliceblue;
+} 
+.section2{
+    text-align: center;
+}
+.combod{
+   border: 1.5px solid black;
+}
+.footer{
+    display: flex;
+    background-color: #bdbdbd;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+}
+.footer .icon{
+    font-size: 28px;
+}
+.footer .icon a{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.footer .icon .facebook:hover{
+    color: #0A81EC;
+}
+.footer .icon .github:hover{
+    color: #23282E;
+}
+.footer .icon .instagram:hover{
+    color: #F301B9;
+}
+.footer .icon .twiter:hover{
+    color: #1DA1F2;
+}
+.footer .icon .arrow:hover{
+    transition-duration: 5s;
+}
+.margine{
+    margin-left: 29%;
+}
+.logo {
+    padding: 5px;
+    padding-left: 19px;  
+    width: 300px;
+}
+.logo button{
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 50%; 
+}
+.logo button i{
+    font-size: 60px;
+}
+.img{
+    margin-left: 54px;
+}
+.header{
+    text-align: center;
+}

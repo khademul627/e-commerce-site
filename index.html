@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+</head>
+<body>
+    <div class="container-fluid " >
+              <!--header-->
+              <nav class="navbar navbar-expand-lg navbar-light header-nav ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <a class="navbar-brand p-lg-1" href="#first" >
+                      <img src="3145765_clipdrop-background-removal.png" alt="" width="53" height="53" >
+                    </a>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-lg-5">
+                      <li class="nav-item px-lg-3">
+                        <a class="nav-link text-light hearder-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item px-lg-3">
+                        <a class="nav-link text-light hearder-link" href="#books" tabindex="-1" aria-disabled="true">Book</a>
+                      </li>
+                      <li class="nav-item px-lg-3">
+                        <a class="nav-link text-light  hearder-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a> 
+                      </li>
+                      <li class="nav-item px-lg-3">
+                        <a class="nav-link text-light hearder-link "href="#cotact5" tabindex="-1" aria-disabled="true" >Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-1" type="search" placeholder="Search..." aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        <!-- header-->
+        <!-- banner -->
+        <div class="">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Give information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary " >Reset</button>
+                <button type="button" class="btn btn-outline-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="3200">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Add a little bit of body text (1) (2).png" class="d-block  slider" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="8f20945f-b522-48a4-b109-daa2361d36a4 (1).png" class="d-block  slider" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="2 (1).png" class="d-block slider" alt="...">
+            </div>
+          </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon carosul-btn" aria-hidden="true"></span>
+              <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon carosul-btn" aria-hidden="true"></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
+          </div>
+        </div>  
+        <!-- banner -->  
+        <!-- banner2 -->  
+          <div class="container-fluid ">
+            <div class="row ">
+            <h1 class="header mt-5">Who are These Books For</h1>
+            <!-- 1st logo -->
+            <div class="logo col-lg-4 col-sm-6 mt-5">
+              <button class="img"><i class="fa-solid fa-user-gear"></i></button>
+              <h3>Young Entrepreneurs</h3>
+              <p>People who challenge to build our economy up! They need sound advice.</p>
+            </div>
+            <!-- 1st logo -->
+              <!-- 2nd logo -->
+              <div class="logo col-lg-4 col-sm-6 mx-lg-3 mt-5 col-md-6">
+                <button class="img"><i class="fa-solid fa-users-gear"></i></button>
+                <h3>Startup Teams</h3>
+                <p>Startuppers inspired with their ideas need some help to implement their projects.</p>
+              </div>
+              <!-- 2nd logo -->
+                <!-- 3rd logo -->
+            <div class="logo col-lg-4 col-sm-6 mx-lg-3 mt-5 col-md-6">
+              <button class="img"><i class="fa-solid fa-briefcase"></i></button>
+              <h3>Established Compaies</h3>
+              <p>Technologies are developing faster than ever, and companies should follow them.</p>
+            </div>
+            <!-- 3rd logo -->
+              <!-- 4th logo -->
+              <div class="logo col-lg-4 col-sm-6 mx-lg-3 mt-5 col-md-6 ">
+                <button class="img"><i class="fa-solid fa-landmark"></i></button>
+                <h3>Small Companies</h3>
+                <p>Owners of small companies need clear guides to develop their business to achieve success.</p>
+              </div>
+              <!-- 4th logo -->
+            </div>
+          </div>
+           <!-- banner2 -->   
+            <!-- banner3 -->  
+           <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6 mt-5 col-md-6 px-4 col-md-6">
+                  <h3 class="px-3">75,678+</h3>
+                  <p>ACTIVE READER</p>
+              </div>   
+              <div class="col-lg-3 col-sm-6 mt-5 col-md-6 px-4 col-md-6">
+                <h3 class="px-3">3,561+</h3>
+                <p>TOTAL PAGES</p>
+            </div> 
+            <div class="col-lg-3 col-sm-6 mt-5 col-md-6 px-4 col-md-6">
+              <h3 class="px-3">283+</h3>
+              <p>CUP OF COFFEE</p>
+            </div>
+            <div class="col-lg-3  col-sm-6 mt-5 col-md-6 px-4 col-md-6">
+              <h3 class="px-3">14,500+</h3>
+              <p>FACEBOOK FANS</p>
+            </div>  
+          </div>
+           </div>
+        <!-- banner2 --> 
+        <!-- card-section -->
+        <div class="container-fluid carddiv" id="books">
+        <div class="row">    
+          <!-- 1s card strt -->
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-4  ">  
+              <div class="card card1" style="height: auto; border-radius: 10px; width: 280px;">
+                  <img src="86cde3747669b97decfbf2ec5f345143.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mathematics and Basic Science-related Technologies</h5>
+                    <button type="button" class="btn btn-outline-primary margine">Buy Now</button>         
+                  </div> 
+              </div>
+          </div>  
+          <!-- 1st card end -->
+          <!-- 2nd card strt -->
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-4 ">  
+            <div class="card card1" style="height: auto; border-radius: 10px; width: 280px;">
+                <img src="52461ff5d2855889632e815c064659a3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mathematics and Basic Science-related Technologies</h5>
+                  <button type="button" class="btn btn-outline-success margine">Buy Now</button>         
+                </div> 
+            </div>
+          </div> 
+          <!-- 2nd card end -->
+          <!-- 3th card strt -->
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-4 ">  
+            <div class="card card1" style="height: auto; border-radius: 10px; width: 280px;" >
+                <img src="86cde3747669b97decfbf2ec5f345143.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mathematics and Basic Science-related Technologies</h5>
+                  <button type="button" class="btn btn-outline-primary margine">Buy Now</button>         
+                </div> 
+            </div>
+          </div> 
+          <!-- 3th card end -->
+          <!-- 4th card strt -->
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-4 ">  
+            <div class="card card1" style="height:auto; border-radius: 10px; width: 280px;  ">
+                <img src="52461ff5d2855889632e815c064659a3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mathematics and Basic Science-related Technologies</h5>
+                  <button type="button" class="btn btn-outline-success margine">Buy Now</button>         
+                </div> 
+            </div>
+          </div>
+          <!-- 4th card end -->
+          <!-- card-section -->
+          <!-- pagination -->
+          <nav aria-label="Page navigation example" class="pagdiv mt-3 mx-4">
+            <ul class="pagination">
+              <li class="page-item bg-danger">
+                <a class="page-link nava" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item bg-danger"><a class="page-link nava btn btn-outline-primary px-4" href="#">1</a></li>
+              <li class="page-item  bg-danger"><a class="page-link nava px-4" href="#">2</a></li>
+              <li class="page-item  bg-danger"><a class="page-link nava px-4" href="#">3</a></li>
+              <li class="page-item  bg-danger"><a class="page-link nava px-4" href="#">4</a></li>
+              <li class="page-item  bg-danger"><a class="page-link nava px-4" href="#">5</a></li>
+              <li class="page-item  bg-danger"><a class="page-link nava px-4" href="#">6</a></li>
+              <li class="page-item  bg-danger"><a class="page-link nava px-4" href="#">7</a></li>
+              <li class="page-item"><a class="page-link" href="#">.......</a></li>
+              <li class="page-item bg-danger">
+                <a class="page-link nava" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- pagination -->
+          <!-- comment -->
+          <h4 class="">You can share your book reading experience in here...</h4>
+          <div class="form-floating ">
+            <textarea class="form-control mb-3 px-3 combod" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 230px; width: 99%; "></textarea>
+            <label for="floatingTextarea2 ">Write experience... </label>
+          </div>
+          <!-- comment -->
+          <!-- aboutsection -->
+          <div class="section2 bg-dark text-light p-3" >
+            <h2>About Our Shop</h2>
+            <p> 
+                Certainly! Here's a tagline or phrase you can use for "Prime book store":
+                "Where Every Slice Reigns Supreme."
+                or, for a more descriptive touch:
+                "Prime Pizza Restaurant: The Throne of Authentic Flavors and Royal Treats."
+                Remember, the key is to convey the idea that your restaurant is the ultimate place for pizza lovers. Adjust the lines as per your brand's tone and character.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum amet vel hic, doloremque soluta nisi quo incidunt dolore non optio praesentium itaque, libero exercitationem eveniet ratione necessitatibus, labore delectus. Quidem animi, rem possimus vel, rerum totam quos numquam dolorum nostrum vero culpa dicta quae. Fugiat, repellat. Nisi fugiat fugit nostrum mollitia ut? Nulla corrupti ex, quod deserunt odio laudantium, nobis minima exercitationem dolorem libero enim. Sint commodi pariatur unde. Reiciendis, ipsam? Nihil rerum sed vitae optio eaque? Magnam, amet facilis. Laboriosam asperiores rerum obcaecati fugiat debitis suscipit adipisci mollitia expedita qui quod, fugit recusandae earum quae ipsam dolore laudantium placeat!
+            </p>    
+            </div>
+          <!-- aboutsection -->
+        <!-- contact -->
+        <div class="section4 container-fluid" id="cotact5" >
+          <div class="row">
+            <div class="map col-lg-7 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.491363540751!2d89.51393577259324!3d22.598119332532235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a002835b440178b%3A0x4d681e4ac1da5f36!2sChalna%20MM%20College!5e0!3m2!1sen!2sbd!4v1691691122060!5m2!1sen!2sbd" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact col-lg-5 align-content-sm-center align-content-md-center">
+                <h2 class="contact3">Shop Contact</h2> 
+                <h4 class="contact3">Book Store</h4>
+                <address >139 Chalna Bazar,Dacop,Khulna</address>    
+                  <i class="fa-solid fa-phone px-1"></i>01998562500
+                    <p><i class="fa-regular fa-envelope px-1"></i> khademulislam627@gmail.com</p>
+                <h5 class="contact3">Opening hours from 8:00 AM till 10:00 PM</h5>
+            </div>
+          </div>  
+        </div>
+        <!-- contact -->
+        <!-- footer -->
+          <div class="footer ">
+              <div class="copy col-lg-6">
+                  <p class="p-lg-2"> &copy; All rights reserved by Book store</p>
+              </div>    
+              <div class="icon col-lg-6 pt-lg-1">
+                  <a href="https://www.facebook.com/profile.php?id=100081960342142" target="_blank" class="facebook mx-lg-4"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/khaademul_islaam/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"class="twiter mx-lg-4"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"class="twiter mx-lg-2"> <i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"  class="arrow mx-lg-3" id="first"><i class="fa-solid fa-arrow-up"></i></a>
+              </div>
+          </div>
+      <!-- footer -->
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
